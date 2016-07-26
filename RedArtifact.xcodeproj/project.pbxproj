@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168743F58C97330CE0891459 /* libPods-RedArtifact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AE6557B8872590F91CE861 /* libPods-RedArtifact.a */; };
+		82311FB31D474E670031CBC9 /* RedArtifactTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82311FB21D474E670031CBC9 /* RedArtifactTabViewController.m */; };
+		828A7C6F1D45DEAF0056C94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 828A7C6E1D45DEAF0056C94E /* main.m */; };
+		828A7C7A1D45DEAF0056C94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828A7C791D45DEAF0056C94E /* Assets.xcassets */; };
+		828A7C8E1D45E3A80056C94E /* OverAllManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 828A7C8D1D45E3A80056C94E /* OverAllManager.m */; };
+		828A7C911D45E4010056C94E /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 828A7C901D45E4010056C94E /* HttpRequest.m */; };
+		828A7C991D45EAFB0056C94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 828A7C981D45EAFB0056C94E /* AppDelegate.m */; };
+		828A7C9D1D45EC980056C94E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828A7C9C1D45EC980056C94E /* BaseViewController.m */; };
+		82EF78451D45F0F000E276C6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF78431D45F0F000E276C6 /* LoginViewController.m */; };
+		82EF78461D45F0F000E276C6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82EF78441D45F0F000E276C6 /* LoginViewController.xib */; };
+		82EF784A1D45F3AF00E276C6 /* SingleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EF78481D45F3AF00E276C6 /* SingleWebViewController.m */; };
+		82EF784B1D45F3AF00E276C6 /* SingleWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82EF78491D45F3AF00E276C6 /* SingleWebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31AE6557B8872590F91CE861 /* libPods-RedArtifact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedArtifact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2C739C69981DF21ED2D1EB /* Pods-RedArtifact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedArtifact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedArtifact/Pods-RedArtifact.debug.xcconfig"; sourceTree = "<group>"; };
+		82311FB11D474E670031CBC9 /* RedArtifactTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedArtifactTabViewController.h; sourceTree = "<group>"; };
+		82311FB21D474E670031CBC9 /* RedArtifactTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedArtifactTabViewController.m; sourceTree = "<group>"; };
+		828A7C6A1D45DEAF0056C94E /* RedArtifact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedArtifact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		828A7C6E1D45DEAF0056C94E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		828A7C791D45DEAF0056C94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		828A7C7E1D45DEAF0056C94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828A7C8B1D45E32C0056C94E /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		828A7C8C1D45E3A80056C94E /* OverAllManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverAllManager.h; sourceTree = "<group>"; };
+		828A7C8D1D45E3A80056C94E /* OverAllManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverAllManager.m; sourceTree = "<group>"; };
+		828A7C8F1D45E4010056C94E /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		828A7C901D45E4010056C94E /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		828A7C971D45EAFB0056C94E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		828A7C981D45EAFB0056C94E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		828A7C9B1D45EC980056C94E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		828A7C9C1D45EC980056C94E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		82EF78421D45F0F000E276C6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		82EF78431D45F0F000E276C6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		82EF78441D45F0F000E276C6 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		82EF78471D45F3AF00E276C6 /* SingleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleWebViewController.h; sourceTree = "<group>"; };
+		82EF78481D45F3AF00E276C6 /* SingleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleWebViewController.m; sourceTree = "<group>"; };
+		82EF78491D45F3AF00E276C6 /* SingleWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleWebViewController.xib; sourceTree = "<group>"; };
+		82EF784C1D45F7AF00E276C6 /* RedArtifact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedArtifact-Prefix.pch"; sourceTree = "<group>"; };
+		B50A52A981768045C0179912 /* Pods-RedArtifact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedArtifact.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedArtifact/Pods-RedArtifact.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828A7C671D45DEAF0056C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168743F58C97330CE0891459 /* libPods-RedArtifact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1DE400BB0AF63671D58B02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31AE6557B8872590F91CE861 /* libPods-RedArtifact.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80A65ABB7CA1246267EF5B01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A2C739C69981DF21ED2D1EB /* Pods-RedArtifact.debug.xcconfig */,
+				B50A52A981768045C0179912 /* Pods-RedArtifact.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		828A7C611D45DEAF0056C94E = {
+			isa = PBXGroup;
+			children = (
+				828A7C6C1D45DEAF0056C94E /* RedArtifact */,
+				828A7C6B1D45DEAF0056C94E /* Products */,
+				80A65ABB7CA1246267EF5B01 /* Pods */,
+				4B1DE400BB0AF63671D58B02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		828A7C6B1D45DEAF0056C94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828A7C6A1D45DEAF0056C94E /* RedArtifact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828A7C6C1D45DEAF0056C94E /* RedArtifact */ = {
+			isa = PBXGroup;
+			children = (
+				828A7C841D45E12E0056C94E /* Classes */,
+				828A7C791D45DEAF0056C94E /* Assets.xcassets */,
+				828A7C7E1D45DEAF0056C94E /* Info.plist */,
+				828A7C6D1D45DEAF0056C94E /* Supporting Files */,
+			);
+			path = RedArtifact;
+			sourceTree = "<group>";
+		};
+		828A7C6D1D45DEAF0056C94E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828A7C6E1D45DEAF0056C94E /* main.m */,
+				82EF784C1D45F7AF00E276C6 /* RedArtifact-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		828A7C841D45E12E0056C94E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				828A7C961D45EAC00056C94E /* AppDelegate */,
+				828A7C891D45E2260056C94E /* BaseClass */,
+				828A7C851D45E15D0056C94E /* Controller */,
+				828A7C871D45E1AF0056C94E /* View */,
+				828A7C861D45E17E0056C94E /* Model */,
+				828A7C881D45E1ED0056C94E /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		828A7C851D45E15D0056C94E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				828A7C951D45E9E70056C94E /* TabControler */,
+				828A7C9A1D45EBB30056C94E /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		828A7C861D45E17E0056C94E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = Controller/Model;
+			sourceTree = "<group>";
+		};
+		828A7C871D45E1AF0056C94E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = view;
+			sourceTree = "<group>";
+		};
+		828A7C881D45E1ED0056C94E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			path = other;
+			sourceTree = "<group>";
+		};
+		828A7C891D45E2260056C94E /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				828A7C8B1D45E32C0056C94E /* API.h */,
+				828A7C8C1D45E3A80056C94E /* OverAllManager.h */,
+				828A7C8D1D45E3A80056C94E /* OverAllManager.m */,
+				828A7C8F1D45E4010056C94E /* HttpRequest.h */,
+				828A7C901D45E4010056C94E /* HttpRequest.m */,
+				828A7C9B1D45EC980056C94E /* BaseViewController.h */,
+				828A7C9C1D45EC980056C94E /* BaseViewController.m */,
+			);
+			name = BaseClass;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		828A7C951D45E9E70056C94E /* TabControler */ = {
+			isa = PBXGroup;
+			children = (
+				82311FB11D474E670031CBC9 /* RedArtifactTabViewController.h */,
+				82311FB21D474E670031CBC9 /* RedArtifactTabViewController.m */,
+			);
+			path = TabControler;
+			sourceTree = "<group>";
+		};
+		828A7C961D45EAC00056C94E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				828A7C971D45EAFB0056C94E /* AppDelegate.h */,
+				828A7C981D45EAFB0056C94E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		828A7C9A1D45EBB30056C94E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				82EF78421D45F0F000E276C6 /* LoginViewController.h */,
+				82EF78431D45F0F000E276C6 /* LoginViewController.m */,
+				82EF78441D45F0F000E276C6 /* LoginViewController.xib */,
+				82EF78471D45F3AF00E276C6 /* SingleWebViewController.h */,
+				82EF78481D45F3AF00E276C6 /* SingleWebViewController.m */,
+				82EF78491D45F3AF00E276C6 /* SingleWebViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828A7C691D45DEAF0056C94E /* RedArtifact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828A7C811D45DEAF0056C94E /* Build configuration list for PBXNativeTarget "RedArtifact" */;
+			buildPhases = (
+				E2BB2164731C6A448344D6DC /* 📦 Check Pods Manifest.lock */,
+				828A7C661D45DEAF0056C94E /* Sources */,
+				828A7C671D45DEAF0056C94E /* Frameworks */,
+				828A7C681D45DEAF0056C94E /* Resources */,
+				85351F477ED4AA2FDA62A299 /* 📦 Embed Pods Frameworks */,
+				95A38646F9BE948C6AFFC6FE /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedArtifact;
+			productName = RedArtifact;
+			productReference = 828A7C6A1D45DEAF0056C94E /* RedArtifact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828A7C621D45DEAF0056C94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jianlin;
+				TargetAttributes = {
+					828A7C691D45DEAF0056C94E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J2NU3RKTHQ;
+					};
+				};
+			};
+			buildConfigurationList = 828A7C651D45DEAF0056C94E /* Build configuration list for PBXProject "RedArtifact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 828A7C611D45DEAF0056C94E;
+			productRefGroup = 828A7C6B1D45DEAF0056C94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828A7C691D45DEAF0056C94E /* RedArtifact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828A7C681D45DEAF0056C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828A7C7A1D45DEAF0056C94E /* Assets.xcassets in Resources */,
+				82EF78461D45F0F000E276C6 /* LoginViewController.xib in Resources */,
+				82EF784B1D45F3AF00E276C6 /* SingleWebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85351F477ED4AA2FDA62A299 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedArtifact/Pods-RedArtifact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A38646F9BE948C6AFFC6FE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedArtifact/Pods-RedArtifact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BB2164731C6A448344D6DC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828A7C661D45DEAF0056C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82311FB31D474E670031CBC9 /* RedArtifactTabViewController.m in Sources */,
+				828A7C8E1D45E3A80056C94E /* OverAllManager.m in Sources */,
+				828A7C9D1D45EC980056C94E /* BaseViewController.m in Sources */,
+				82EF78451D45F0F000E276C6 /* LoginViewController.m in Sources */,
+				828A7C911D45E4010056C94E /* HttpRequest.m in Sources */,
+				82EF784A1D45F3AF00E276C6 /* SingleWebViewController.m in Sources */,
+				828A7C6F1D45DEAF0056C94E /* main.m in Sources */,
+				828A7C991D45EAFB0056C94E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		828A7C7F1D45DEAF0056C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "RedArtifact/RedArtifact-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		828A7C801D45DEAF0056C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "RedArtifact/RedArtifact-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		828A7C821D45DEAF0056C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2C739C69981DF21ED2D1EB /* Pods-RedArtifact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedArtifact/RedArtifact-Prefix.pch";
+				INFOPLIST_FILE = RedArtifact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianli.RedArtifact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		828A7C831D45DEAF0056C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50A52A981768045C0179912 /* Pods-RedArtifact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedArtifact/RedArtifact-Prefix.pch";
+				INFOPLIST_FILE = RedArtifact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bianli.RedArtifact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828A7C651D45DEAF0056C94E /* Build configuration list for PBXProject "RedArtifact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828A7C7F1D45DEAF0056C94E /* Debug */,
+				828A7C801D45DEAF0056C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828A7C811D45DEAF0056C94E /* Build configuration list for PBXNativeTarget "RedArtifact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828A7C821D45DEAF0056C94E /* Debug */,
+				828A7C831D45DEAF0056C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828A7C621D45DEAF0056C94E /* Project object */;
+}
