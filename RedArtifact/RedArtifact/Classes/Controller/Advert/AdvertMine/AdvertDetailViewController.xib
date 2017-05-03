@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AdvertDetailViewController">
+            <connections>
+                <outlet property="bottomButton" destination="9cS-Wl-n2A" id="e2s-yf-Jbg"/>
+                <outlet property="bottomViewHeight" destination="q6H-yj-ngm" id="gi5-Vg-dls"/>
+                <outlet property="mainTableView" destination="koq-kr-J4q" id="bFo-XJ-Rd1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJP-Ly-38i">
+                    <rect key="frame" x="0.0" y="420" width="320" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cS-Wl-n2A">
+                            <rect key="frame" x="49" y="8" width="221" height="44"/>
+                            <color key="backgroundColor" red="0.85882352941176465" green="0.25490196078431371" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="221" id="hY1-Nv-J3L"/>
+                                <constraint firstAttribute="height" constant="44" id="rFk-Kz-tjS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="立即发布">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="publishAction:" destination="-1" eventType="touchUpInside" id="dB8-Y2-2Cg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="9cS-Wl-n2A" firstAttribute="centerX" secondItem="bJP-Ly-38i" secondAttribute="centerX" id="F8x-ZA-Riu"/>
+                        <constraint firstAttribute="height" constant="60" id="q6H-yj-ngm"/>
+                        <constraint firstItem="9cS-Wl-n2A" firstAttribute="centerY" secondItem="bJP-Ly-38i" secondAttribute="centerY" id="uYw-wW-4M2"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="koq-kr-J4q">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="rM8-Fa-1VV"/>
+                        <outlet property="delegate" destination="-1" id="1E5-LI-6oj"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bJP-Ly-38i" secondAttribute="trailing" id="6ir-0C-efd"/>
+                <constraint firstAttribute="bottom" secondItem="bJP-Ly-38i" secondAttribute="bottom" id="ADI-je-K4s"/>
+                <constraint firstItem="koq-kr-J4q" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DPe-lk-cZa"/>
+                <constraint firstAttribute="trailing" secondItem="koq-kr-J4q" secondAttribute="trailing" id="Ice-Cy-isJ"/>
+                <constraint firstItem="bJP-Ly-38i" firstAttribute="top" secondItem="koq-kr-J4q" secondAttribute="bottom" id="Rx8-ut-boH"/>
+                <constraint firstItem="koq-kr-J4q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eMr-Vi-fIv"/>
+                <constraint firstItem="bJP-Ly-38i" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mWP-vH-xEr"/>
+            </constraints>
+            <point key="canvasLocation" x="185.5" y="391.5"/>
+        </view>
+    </objects>
+</document>

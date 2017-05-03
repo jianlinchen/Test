@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RefundLogCellID" rowHeight="50" id="KGk-i7-Jjw" customClass="RefundLogCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="refund_log_line" translatesAutoresizingMaskIntoConstraints="NO" id="zS9-dx-JWx">
+                        <rect key="frame" x="19" y="0.0" width="12" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="SZl-OW-hEm"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nkv-nC-eqb">
+                        <rect key="frame" x="65" y="0.0" width="247" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="3eo-Ak-ygq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.85882352939999995" green="0.25490196079999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3D-9Y-xkW">
+                        <rect key="frame" x="65" y="22" width="247" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="wZ8-Vb-6oz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.85882352939999995" green="0.25490196079999999" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zS9-dx-JWx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="63g-Dl-pc3"/>
+                    <constraint firstItem="Q3D-9Y-xkW" firstAttribute="leading" secondItem="zS9-dx-JWx" secondAttribute="trailing" constant="34" id="6rJ-zO-lUJ"/>
+                    <constraint firstItem="Q3D-9Y-xkW" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="BW2-LQ-dMs"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zS9-dx-JWx" secondAttribute="bottom" constant="-8" id="FM4-4x-ReW"/>
+                    <constraint firstItem="Nkv-nC-eqb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="FML-B9-MmA"/>
+                    <constraint firstItem="Nkv-nC-eqb" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="HpE-ye-QLr"/>
+                    <constraint firstItem="Nkv-nC-eqb" firstAttribute="leading" secondItem="zS9-dx-JWx" secondAttribute="trailing" constant="34" id="Mot-hb-Of0"/>
+                    <constraint firstItem="zS9-dx-JWx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="11" id="O41-Le-Iu9"/>
+                    <constraint firstItem="Q3D-9Y-xkW" firstAttribute="top" secondItem="Nkv-nC-eqb" secondAttribute="bottom" constant="10" id="acs-2w-Zwu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="log_detailLabel" destination="Q3D-9Y-xkW" id="PhO-r5-b5O"/>
+                <outlet property="log_status_imgVIew" destination="zS9-dx-JWx" id="QCW-ne-fz3"/>
+                <outlet property="log_timeLabel" destination="Nkv-nC-eqb" id="KVw-Vz-q21"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="refund_log_line" width="12" height="50"/>
+    </resources>
+</document>

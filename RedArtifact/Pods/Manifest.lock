@@ -1,0 +1,110 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AliPay (2.1.2.1):
+    - AliPay/AliPay-Extend (= 2.1.2.1)
+    - AliPay/openssl (= 2.1.2.1)
+  - AliPay/AliPay-Extend (2.1.2.1):
+    - AliPay/AliPay-Extend/Util (= 2.1.2.1)
+  - AliPay/AliPay-Extend/Util (2.1.2.1)
+  - AliPay/openssl (2.1.2.1)
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - BaiduMapKit (3.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GTMBase64 (1.0.0)
+  - IQKeyboardManager (3.3.7)
+  - JPush (2.1.9)
+  - libqrencode (3.4.2)
+  - Masonry (1.0.0)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - PINCache (2.2.2)
+  - Reachability (3.2)
+  - SDCycleScrollView (1.64):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - UMengSocialCOM (5.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AliPay (from `https://github.com/beiliubei/AliPay.git`, tag `2.1.2.1`)
+  - ASIHTTPRequest (~> 1.8.2)
+  - BaiduMapKit (~> 3.1.0)
+  - DZNEmptyDataSet (~> 1.8.1)
+  - FMDB (~> 2.6.2)
+  - GTMBase64 (~> 1.0.0)
+  - IQKeyboardManager (= 3.3.7)
+  - JPush (~> 2.1.9)
+  - libqrencode (~> 3.4.2)
+  - Masonry (~> 1.0.0)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.0)
+  - PINCache (= 2.2.2)
+  - Reachability (~> 3.2)
+  - SDCycleScrollView (~> 1.64)
+  - SDWebImage (~> 3.7.6)
+  - UMengSocialCOM (~> 5.2.1)
+
+EXTERNAL SOURCES:
+  AliPay:
+    :git: https://github.com/beiliubei/AliPay.git
+    :tag: 2.1.2.1
+
+CHECKOUT OPTIONS:
+  AliPay:
+    :git: https://github.com/beiliubei/AliPay.git
+    :tag: 2.1.2.1
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AliPay: cd3854c8d142f9c0d7cc6e4b22183c27885504c1
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  BaiduMapKit: 4cfaedb118cff7e157e9771859a4bf65a261b2a1
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JPush: 8bccf709ace4318a8e7008cc4fab42b706bfad46
+  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDCycleScrollView: 806fedb9342ab03b58b84442f985517b42c7cbb7
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
+
+PODFILE CHECKSUM: f086d2ca7f1b87e54476d8c213bddc4bd9f9a2cb
+
+COCOAPODS: 1.0.1

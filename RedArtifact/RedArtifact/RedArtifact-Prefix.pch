@@ -1,0 +1,103 @@
+//
+//  RedArtifact-Prefix.pch
+//  RedArtifact
+//
+//  Created by LiLu on 16/7/25.
+//  Copyright © 2016年 jianlin. All rights reserved.
+//
+
+#ifndef RedArtifact_Prefix_pch
+#define RedArtifact_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "Tools.h"
+#import "MJExtension.h"
+#import "User.h"
+#import "Constant.h"
+#import "YTKKeyValueStore.h"
+#import "RADBTool.h"
+#import "AppDelegate.h"
+#import "FMDBObjectID.h"
+#import "HttpRequest.h"
+#import "API.h"
+#import "IQKeyboardManager.h"
+#import "Masonry.h"
+#import "Reachability.h"
+#import "HttpRequest.h"
+#import "OverAllManager.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "CustomAlertView.h"
+
+//类别文件
+#import "UIColor+RAColor.h"
+#import "UILabel+RALable.h"
+#import "NSDate+RADate.h"
+#import "NSString+RAString.h"
+#import "NSDictionary+RADictionary.h"
+#import "UIBarButtonItem+RABarButtonItem.h"
+#import "UIButton+RAButton.h"
+#import "RAError.h"
+#import "MBProgressHUD+Add.h"
+#import "DataBaseManager.h"
+
+#define BroadcastNSdufalut @"BroadcastNSdufalut"// 广播弹出的图片URL
+#define WEIXIN_APPSRCERT   @"e17e959fbaa2db1908c47b96806e2c59"
+#define WEIXIN_APPID       @"wx36e34c361a0b2b3f"
+#define UMSocial_APPKEY    @"57063061e0f55a22a2002ba3"
+#define QQ_APPID           @"1105774820"
+#define QQ_APPKEY          @"mbKxBqEzHcdta4ce"
+#define SINA_APPSRCERT     @"4a76f017f343a701b02873e237b83765"
+#define SINA_APPKEY        @"1854449777"
+
+// 支付成功通知的key
+#define PushSuccess        @"PushSuccess"
+
+
+// 支付失败通知的key
+#define PushFaliure        @"PushFaliure"
+
+#define BackAdvert         @"payNOtice"
+
+#define AdvertListIndex    @"AdvertListIndex"
+
+#define OrAlertView        @"OrAlertView"
+
+// 判读定位弹出框是否显示
+#define OrLocation         @"OrLocation"
+
+/**
+ *  关于便联生活(企业)
+ */
+#define AboutUs    @"http://cdn.blife-tech.com/agreement/about_blife_com.html"
+
+/**
+ * 使用条款(企业)
+ */
+#define TermOfUse   @"http://cdn.blife-tech.com/agreement/com_agreement.html"
+
+#define iOS_V   [[[UIDevice currentDevice] systemVersion] floatValue]
+#define iOSv8   (iOS_V >= 8.0)
+#define iOSv7   (iOS_V >= 7.0 && iOS_V < 8.0)
+#define iOSo7   iOS_V >= 7.0
+#define APP_W         [UIScreen mainScreen].bounds.size.width
+
+#define APP_H         [UIScreen mainScreen].bounds.size.height
+
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define MMFONT(SIZE)          [UIFont systemFontOfSize:SIZE]
+#define iOS6 ([[[UIDevice currentDevice] systemVersion] floatValue] <7.0 ? YES : NO)
+#define COLOR(R, G, B, A)   [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+#endif /* RedArtifact_Prefix_pch */
+
+
+#ifdef DEBUG
+# define DLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define DLog(...);
+#endif
+

@@ -1,0 +1,48 @@
+platform :ios, ‘8.3‘
+
+target ‘RedArtifact’ do
+
+pod 'MJExtension',         '~> 3.0.10'
+
+pod 'libqrencode',         '~> 3.4.2'
+ 
+pod 'MJRefresh',           '~> 3.1.0'
+
+pod 'SDWebImage',          '~> 3.7.6'
+
+pod 'FMDB',                '~> 2.6.2'
+
+pod 'ASIHTTPRequest',      '~> 1.8.2'
+
+pod 'MJRefresh',           '~> 3.1.0'
+
+pod 'MJExtension',         '~> 3.0.10'
+
+pod 'MJRefresh',           '~> 3.1.0'
+
+pod 'PINCache',            '2.2.2'
+
+pod 'SDCycleScrollView',   '~> 1.64'
+
+pod 'IQKeyboardManager',   '3.3.7'
+
+pod 'Masonry',             '~> 1.0.0'
+
+pod 'Reachability',        '~> 3.2'
+
+pod 'DZNEmptyDataSet',     '~> 1.8.1'
+
+pod 'BaiduMapKit',         '~> 3.1.0'
+
+pod 'JPush',               '~> 2.1.9'
+
+
+pod 'GTMBase64',         '~> 1.0.0'
+
+pod 'AliPay', :git => 'https://github.com/beiliubei/AliPay.git', :tag => '2.1.2.1'
+
+pod 'UMengSocialCOM',      '~> 5.2.1'
+
+pod 'AFNetworking', '~> 3.1.0'
+
+end
